@@ -72,7 +72,6 @@ section div a{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    box-shadow: 10px 10px 40px gray;
     border-radius: 20px;
 }
 .social-site{
@@ -84,6 +83,49 @@ section div a{
 .social-site h2{
     font-size: 50px;
 }
+  .container {
+    width: 20%;
+    padding-left: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    background-image: linear-gradient(white,rgb(212, 99, 99));
+  }
+  label{
+    width: 100%;
+      padding-left: 5px;
+      display: inline-block;
+  }
+    .container input{
+        width: 90%;
+        margin: 2px;
+        display: inline-block;
+        border: 1px dashed gray;
+        border-radius: 10px;
+        box-sizing: border-box;
+  }
+  .subscribe{
+    width: 15%;
+    padding-left:1px;
+    margin-left: 5px;
+    
+    border-radius: 20px;
+    background-color: rgba(39, 35, 35, 0.781);
+  }
+  .subscribe button{
+      width: 20%;
+      padding-left: 20%;
+      margin-left: 2%;
+      font-weight: bold;
+        display: inline-block;
+        border: 1px  rgb(180, 140, 140);
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-image: linear-gradient(rgb(216, 208, 194),rgb(180, 161, 158));
+  }
+  #padding{
+      margin-left:30%;
+  }
+
 #footer-part{
     width: 98%;
     height: 200px;
