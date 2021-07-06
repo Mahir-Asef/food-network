@@ -28,16 +28,19 @@ h1{
     font-weight: 700;
     border-radius: 20px;
     display: block;
-    margin:20px;
+    margin-top:20px;
+    box-shadow: 3px 3px 0 #575757;
 }
 .image{
-    width: 80%;
+    width: 100%;
     border-radius: 50px;
     padding-left:20 px;
 }
 .middle-section{
     background-image: url(images/midlle-background.png);
     background-position: initial;
+    width: 100%;
+    height: 400px;
 }
 section div a{
     width: 20%;
@@ -48,7 +51,8 @@ section div a{
     font-weight: 700;
     border-radius: 20px;
     display: block;
-    margin-top: 200px;
+    margin-top: 40px;
+    box-shadow: 3px 3px 0 #575757;
 }
 .center{
     margin: 0 20%;
@@ -88,6 +92,8 @@ section div a{
     display: block;
     text-align: center;
     background-image: linear-gradient(black,gray);
+    margin-top: 50px;
+    padding: 2px;
 
 }
 footer h2{
